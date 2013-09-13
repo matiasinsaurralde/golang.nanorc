@@ -3,9 +3,9 @@
 syntax "go" "\.go$"
 
 ## Types n stuff
-color green "\<((u)?int(8|16|32|64)?|float(32|64)|byte|string|interface|nil|bool|true|false)\>"
+color green "\<((u)?int(8|16|32|64|ptr)?|float(32|64)|byte|complex(64|128)|string|interface|nil|bool|true|false)\>"
 color green "\<(package|import|const|var|type|struct|func)\>"
-color brightyellow "\<(for|range|if|else|case|default|switch)\>"
+color brightyellow "\<(for|range|if|else|case|default|switch|make)\>"
 color magenta "\<(continue|break|return)\>"
 
 ## Strings
